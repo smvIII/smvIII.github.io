@@ -48,6 +48,21 @@ a {
   font-family: "Courier New", "Lucida Console", Monaco, Consolas, monospace;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visit {
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+a:active {
+}
+
 .cursor {
   display: inline-block;
   width: 10px;
