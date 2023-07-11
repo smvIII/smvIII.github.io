@@ -16,13 +16,16 @@
   <body>
     <header class="main-header">
       <div class="main-header-logo">
-        <h1>smvIII:~/portfolio&gt; ls</h1>
+        <h1>
+          smvIII:~/portfolio&gt; <span id="command" class="command">ls</span
+          ><span class="cursor"></span>
+        </h1>
       </div>
       <nav class="links-container">
         <a href="#">Home</a>
-        <a href="pages/projects.html">Projects</a>
-        <a href="pages/skills.html">Skills</a>
-        <a href="#contact">Contact</a>
+        <a id="projects-link" href="pages/projects.html">Projects</a>
+        <a id="skills-link" href="pages/skills.html">Skills</a>
+        <a href="#">Contact</a>
       </nav>
     </header>
 
@@ -54,31 +57,6 @@
         </div>
       </div>
     </article>
+    <script src="scripts/typeAnimation.js"></script>
   </body>
-
-  <!-- <footer id="contact" class="main-footer">
-    <div class="contact-info">
-      <h2>Contact Me</h2>
-      <ul>
-        <li>
-          <a
-            href="https://linkedin.com/in/stanley-vossler-1803b0203"
-            target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <li><a href="https://github.com/smvIII" target="_blank">GitHub</a></li>
-      </ul>
-    </div>
-    <div class="message-form">
-      <h2>Send me a message</h2>
-      <form>
-        Add input fields for name, email, message, etc.
-        <input type="text" name="name" placeholder="Your Name" />
-        <input type="email" name="email" placeholder="Your Email" />
-        <textarea name="message" placeholder="Your Message"></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </footer> -->
 </html>
