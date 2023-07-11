@@ -48,16 +48,6 @@ a {
   font-family: "Courier New", "Lucida Console", Monaco, Consolas, monospace;
 }
 
-/* .about-section {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  width: 75%;
-  margin: 0 auto; 
-  margin-top: 5%;
-  padding: 2em;
-} */
-
 .about-container {
   display: flex;
   width: 75%;
